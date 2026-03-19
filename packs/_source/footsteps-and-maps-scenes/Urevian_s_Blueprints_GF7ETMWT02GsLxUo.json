@@ -10,7 +10,11 @@
   "width": 7000,
   "height": 3150,
   "padding": 0.25,
-  "initial": {},
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
   "backgroundColor": "#605652",
   "grid": {
     "size": 50,
@@ -18,14 +22,11 @@
     "color": "#a3875f",
     "alpha": 0.2,
     "distance": 5,
-    "units": "ft"
+    "units": "ft",
+    "style": "solidLines",
+    "thickness": 1
   },
   "tokenVision": false,
-  "fogExploration": true,
-  "fogReset": 1655155320787,
-  "globalLight": false,
-  "globalLightThreshold": null,
-  "darkness": 0,
   "drawings": [],
   "tokens": [],
   "lights": [],
@@ -39,16 +40,13 @@
       "height": 3000,
       "x": 1750,
       "y": 800,
-      "z": 100,
       "rotation": 0,
       "alpha": 1,
       "hidden": false,
       "locked": false,
-      "overhead": false,
       "occlusion": {
-        "mode": 1,
-        "alpha": 0,
-        "radius": null
+        "mode": 0,
+        "alpha": 0
       },
       "video": {
         "loop": true,
@@ -63,9 +61,18 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "alphaThreshold": 0.75
       },
-      "roof": false,
+      "sort": 100,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "elevation": 0,
       "_key": "!scenes.tiles!GF7ETMWT02GsLxUo.9HAPouB5uoW0G244"
     },
     {
@@ -74,16 +81,13 @@
       "height": 3150,
       "x": 4250,
       "y": 800,
-      "z": 100,
       "rotation": 0,
       "alpha": 1,
       "hidden": false,
       "locked": false,
-      "overhead": false,
       "occlusion": {
-        "mode": 1,
-        "alpha": 0,
-        "radius": null
+        "mode": 0,
+        "alpha": 0
       },
       "video": {
         "loop": true,
@@ -98,9 +102,18 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "alphaThreshold": 0.75
       },
-      "roof": false,
+      "sort": 100,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "elevation": 0,
       "_key": "!scenes.tiles!GF7ETMWT02GsLxUo.ZwgrqAEmFKp4SvU0"
     },
     {
@@ -109,16 +122,13 @@
       "height": 2600,
       "x": 6550,
       "y": 800,
-      "z": 100,
       "rotation": 0,
       "alpha": 1,
       "hidden": false,
       "locked": false,
-      "overhead": false,
       "occlusion": {
-        "mode": 1,
-        "alpha": 0,
-        "radius": null
+        "mode": 0,
+        "alpha": 0
       },
       "video": {
         "loop": true,
@@ -133,9 +143,18 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "alphaThreshold": 0.75
       },
-      "roof": false,
+      "sort": 100,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "elevation": 0,
       "_key": "!scenes.tiles!GF7ETMWT02GsLxUo.HeM77xZar7Ko4AlS"
     }
   ],
@@ -145,9 +164,7 @@
   "journal": null,
   "weather": "",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.footsteps-and-maps.footsteps-and-maps-scenes.GF7ETMWT02GsLxUo"
-    }
+    "core": {}
   },
   "ownership": {
     "default": 0,
@@ -160,22 +177,71 @@
     "scaleX": 1,
     "scaleY": 1,
     "rotation": 0,
-    "tint": null
+    "tint": "#ffffff",
+    "anchorX": 0,
+    "anchorY": 0,
+    "fit": "fill",
+    "alphaThreshold": 0
   },
   "foregroundElevation": null,
-  "fogOverlay": null,
-  "fogExploredColor": null,
-  "fogUnexploredColor": null,
   "journalEntryPage": null,
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.4.0",
-    "coreVersion": "10.291",
+    "coreVersion": "13.351",
     "createdTime": 1670712297867,
-    "modifiedTime": 1670712297867,
-    "lastModifiedBy": "1H5XKXyphHEmdKWt"
+    "modifiedTime": 1773935373331,
+    "lastModifiedBy": "t3zbQ4JmS5HX3GXP",
+    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-scenes.GF7ETMWT02GsLxUo",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 0,
-  "_key": "!scenes!GF7ETMWT02GsLxUo"
+  "sort": 900000,
+  "regions": [],
+  "environment": {
+    "globalLight": {
+      "luminosity": 0,
+      "enabled": false,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "fog": {
+    "exploration": true,
+    "reset": 1655155320787,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "_key": "!scenes!GF7ETMWT02GsLxUo",
+  "levels": []
 }

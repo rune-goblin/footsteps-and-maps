@@ -2,9 +2,7 @@
   "_id": "2OiIB8fFpziD9pfu",
   "name": "H45 Drow Map",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.2OiIB8fFpziD9pfu"
-    }
+    "core": {}
   },
   "pages": [
     {
@@ -30,6 +28,18 @@
         "default": -1
       },
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
       "_key": "!journal.pages!2OiIB8fFpziD9pfu.248ZTLwMxoaz7oAm"
     }
   ],
@@ -40,12 +50,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.4.2",
-    "coreVersion": "10.291",
+    "coreVersion": "13.351",
     "createdTime": 1670773784173,
-    "modifiedTime": 1670773784173,
-    "lastModifiedBy": "1H5XKXyphHEmdKWt"
+    "modifiedTime": 1773935176284,
+    "lastModifiedBy": "t3zbQ4JmS5HX3GXP",
+    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.2OiIB8fFpziD9pfu",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 0,
+  "sort": 400000,
+  "categories": [],
   "_key": "!journal!2OiIB8fFpziD9pfu"
 }

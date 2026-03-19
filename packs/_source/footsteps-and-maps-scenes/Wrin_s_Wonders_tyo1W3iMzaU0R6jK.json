@@ -1,24 +1,24 @@
 {
-  "_id": "2M2pxF3gwoWYllq5",
-  "name": "Drow Map",
+  "_id": "tyo1W3iMzaU0R6jK",
+  "name": "Wrin's Wonders",
   "active": false,
   "navigation": true,
   "navOrder": 0,
   "navName": "",
   "foreground": null,
-  "thumb": "modules/footsteps-and-maps/artwork/thumbs/foo-drowmap.png",
-  "width": 2307,
-  "height": 1579,
+  "thumb": "modules/footsteps-and-maps/artwork/thumbs/foo-wrin.png",
+  "width": 4000,
+  "height": 3100,
   "padding": 0.25,
   "initial": {
     "x": null,
     "y": null,
     "scale": null
   },
-  "backgroundColor": "#a79e8b",
+  "backgroundColor": "#999999",
   "grid": {
-    "size": 50,
-    "type": 0,
+    "size": 100,
+    "type": 1,
     "color": "#000000",
     "alpha": 0.2,
     "distance": 5,
@@ -47,7 +47,7 @@
     "1H5XKXyphHEmdKWt": 3
   },
   "background": {
-    "src": "modules/footsteps-and-maps/artwork/npc-maps/H45-DrowMap.webp",
+    "src": "modules/footsteps-and-maps/artwork/wrinswonders-clutter-100px.webp",
     "offsetX": 0,
     "offsetY": 0,
     "scaleX": 1,
@@ -65,15 +65,15 @@
     "systemId": "pf2e",
     "systemVersion": "4.4.0",
     "coreVersion": "13.351",
-    "createdTime": 1670712297864,
+    "createdTime": 1670712297877,
     "modifiedTime": 1773935373331,
     "lastModifiedBy": "t3zbQ4JmS5HX3GXP",
-    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-scenes.2M2pxF3gwoWYllq5",
+    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-scenes.tyo1W3iMzaU0R6jK",
     "duplicateSource": null,
     "exportSource": null
   },
   "folder": null,
-  "sort": 600000,
+  "sort": 1300000,
   "regions": [],
   "environment": {
     "globalLight": {
@@ -111,13 +111,13 @@
   },
   "fog": {
     "exploration": true,
-    "reset": 1658266726863,
+    "reset": 1654344453910,
     "overlay": null,
     "colors": {
       "explored": null,
       "unexplored": null
     }
   },
-  "_key": "!scenes!2M2pxF3gwoWYllq5",
+  "_key": "!scenes!tyo1W3iMzaU0R6jK",
   "levels": []
 }

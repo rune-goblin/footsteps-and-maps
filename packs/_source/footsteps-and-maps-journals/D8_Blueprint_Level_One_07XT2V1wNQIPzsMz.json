@@ -1,9 +1,7 @@
 {
   "name": "D8 Blueprint Level One",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.qf5WkKVvnyIercVj"
-    }
+    "core": {}
   },
   "_id": "07XT2V1wNQIPzsMz",
   "pages": [
@@ -30,6 +28,18 @@
         "default": -1
       },
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
       "_key": "!journal.pages!07XT2V1wNQIPzsMz.joOmyJqLqO4SPHcS"
     }
   ],
@@ -40,12 +50,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.4.2",
-    "coreVersion": "10.291",
+    "coreVersion": "13.351",
     "createdTime": 1670773784172,
-    "modifiedTime": 1670773784172,
-    "lastModifiedBy": "1H5XKXyphHEmdKWt"
+    "modifiedTime": 1773935176284,
+    "lastModifiedBy": "t3zbQ4JmS5HX3GXP",
+    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.qf5WkKVvnyIercVj",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 0,
+  "sort": 100000,
+  "categories": [],
   "_key": "!journal!07XT2V1wNQIPzsMz"
 }

@@ -2,9 +2,7 @@
   "_id": "7SUMfxLZfEpyTxUg",
   "name": "G10 Blueprint Level Six",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.7SUMfxLZfEpyTxUg"
-    }
+    "core": {}
   },
   "pages": [
     {
@@ -30,6 +28,18 @@
         "default": -1
       },
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
       "_key": "!journal.pages!7SUMfxLZfEpyTxUg.dfzpFPepzNRQwr9g"
     }
   ],
@@ -40,12 +50,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.4.2",
-    "coreVersion": "10.291",
+    "coreVersion": "13.351",
     "createdTime": 1670773784174,
-    "modifiedTime": 1670773784174,
-    "lastModifiedBy": "1H5XKXyphHEmdKWt"
+    "modifiedTime": 1773935176284,
+    "lastModifiedBy": "t3zbQ4JmS5HX3GXP",
+    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.7SUMfxLZfEpyTxUg",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 0,
+  "sort": 600000,
+  "categories": [],
   "_key": "!journal!7SUMfxLZfEpyTxUg"
 }

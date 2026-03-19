@@ -2,9 +2,7 @@
   "_id": "jmUTkwDzJTBiEeQp",
   "name": "A10 Boss Skrawng's Map of LevelTwo",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.jmUTkwDzJTBiEeQp"
-    }
+    "core": {}
   },
   "pages": [
     {
@@ -30,6 +28,18 @@
         "default": -1
       },
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
       "_key": "!journal.pages!jmUTkwDzJTBiEeQp.BxN4BeBUf1d2iQyD"
     }
   ],
@@ -40,12 +50,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.4.2",
-    "coreVersion": "10.291",
+    "coreVersion": "13.351",
     "createdTime": 1670773784181,
-    "modifiedTime": 1670773784181,
-    "lastModifiedBy": "1H5XKXyphHEmdKWt"
+    "modifiedTime": 1773935176284,
+    "lastModifiedBy": "t3zbQ4JmS5HX3GXP",
+    "compendiumSource": "Compendium.footsteps-and-maps.footsteps-and-maps-journals.jmUTkwDzJTBiEeQp",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1700000,
+  "categories": [],
   "_key": "!journal!jmUTkwDzJTBiEeQp"
 }
