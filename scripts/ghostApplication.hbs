@@ -8,13 +8,13 @@
                     <div class="footsteps-and-maps-radio ">
                         <input class="footsteps-and-maps-radioVersionPDF" type="radio"
                             name="footsteps-and-maps-map-version" value="pdf" id="pdf"
-                            {{#if (eq mapVersion "pdf")}}checked{{/if}} />
+                            {{checked isPdf}} />
                         <label for="pdf"> PDF</label>
                     </div>
                     <div class="footsteps-and-maps-radio ">
                         <input class="footsteps-and-maps-radioVersionCommunity" type="radio"
                             name="footsteps-and-maps-map-version" value="community" id="community"
-                            {{#if (eq mapVersion "community")}}checked{{/if}} />
+                            {{checked isCommunity}} />
                         <label for="community"> Narchy</label>
                     </div>
                 </div>
@@ -25,13 +25,13 @@
                     <div class="footsteps-and-maps-radio ">
                         <input class="footsteps-and-maps-radioVersionClassic" type="radio"
                             name="footsteps-and-maps-map-version" value="classic" id="classic"
-                            {{#if (eq mapVersion "classic")}}checked{{/if}} />
+                            {{checked isClassic}} />
                         <label for="classic"> Classic</label>
                     </div>
                     <div class="footsteps-and-maps-radio">
                         <input class="footsteps-and-maps-radioVersionRemaster" type="radio"
                             name="footsteps-and-maps-map-version" value="remaster" id="remaster"
-                            {{#if (eq mapVersion "remaster")}}checked{{/if}} />
+                            {{checked isRemaster}} />
                         <label for="remaster"> Remaster </label>
                     </div>
                 </div>
@@ -44,19 +44,19 @@
             <div class="footsteps-and-maps-radio">
                 <input class="footsteps-and-maps-radioLevelTwo" type="radio" id="floor-two"
                     name="footsteps-and-maps-floor" value="two"
-                    {{#if (eq mapLevel "two")}}checked{{/if}}>
+                    {{checked isLevelTwo}}>
                 <label for="floor-two">Two</label>
             </div>
             <div class="footsteps-and-maps-radio">
                 <input class="footsteps-and-maps-radioLevelThree" type="radio" id="floor-three"
                     name="footsteps-and-maps-floor" value="three"
-                    {{#if (eq mapLevel "three")}}checked{{/if}}>
+                    {{checked isLevelThree}}>
                 <label for="floor-three">Three</label>
             </div>
             <div class="footsteps-and-maps-radio">
                 <input class="footsteps-and-maps-radioLevelFour" type="radio" id="floor-four"
                     name="footsteps-and-maps-floor" value="four"
-                    {{#if (eq mapLevel "four")}}checked{{/if}}>
+                    {{checked isLevelFour}}>
                 <label for="floor-four">Four</label>
             </div>
         </div>
@@ -65,11 +65,11 @@
         <button class="footsteps-and-maps-playControl footsteps-and-maps-button" type="button"
             data-action="playToggle"><i class="fas fa-play"></i> <i class="fas fa-pause"></i></button>
         <select class="footsteps-and-maps-playSpeed footsteps-and-maps-button" id="ghostSpeed">
-            <option value=".25">1/4x</option>
-            <option value=".5">1/2x</option>
-            <option selected="selected" value="1">1x</option>
-            <option value="1.5">1.5x</option>
-            <option value="2">2x</option>
+            <option value=".25" {{#if speedQuarter}}selected{{/if}}>1/4x</option>
+            <option value=".5" {{#if speedHalf}}selected{{/if}}>1/2x</option>
+            <option value="1" {{#if speedOne}}selected{{/if}}>1x</option>
+            <option value="1.5" {{#if speedOneAndHalf}}selected{{/if}}>1.5x</option>
+            <option value="2" {{#if speedTwo}}selected{{/if}}>2x</option>
         </select>
         <div class="footsteps-and-maps-time">
             <input type="range" min="0" max="100" value="{{progressBar}}" class="footsteps-and-maps-timelineSlider"

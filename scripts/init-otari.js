@@ -284,7 +284,7 @@ async function makeGhost() {
   //ghost sprite
 
   if (ghostExists == false) {
-    const ghostTexture = await loadTexture(
+    const ghostTexture = await foundry.canvas.loadTexture(
       "modules/footsteps-and-maps/artwork/ghost-blob.webp"
     );
     ghost = new PIXI.Sprite(ghostTexture);
@@ -410,7 +410,7 @@ async function makeGhost() {
     ghostEmitter.emit = true;
 
     // Left Footstep Particles
-    const leftFoot = await loadTexture(
+    const leftFoot = await foundry.canvas.loadTexture(
       "modules/footsteps-and-maps/artwork/ghost-left.webp"
     );
 
@@ -535,7 +535,7 @@ async function makeGhost() {
     leftPrintEmitter.emit = true;
 
     // Right Footstep Particles
-    const rightFoot = await loadTexture(
+    const rightFoot = await foundry.canvas.loadTexture(
       "modules/footsteps-and-maps/artwork/ghost-right.webp"
     );
 
@@ -680,7 +680,14 @@ async function makeGhost() {
 /////////////////////////////////////
 
 async function openFootstepsController() {
-  let activeScene = game.scenes.active.id;
+  const active = game.scenes.active;
+  if (!active) {
+    ui.notifications.warn(
+      "Footsteps and Maps: no active scene. Activate the gauntlight scene you want to control."
+    );
+    return;
+  }
+  let activeScene = active.id;
 
   switch (activeScene) {
     case "BDb75TAOyhTzNzte":

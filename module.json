@@ -2,11 +2,11 @@
   "id": "footsteps-and-maps",
   "title": "Footsteps and Maps",
   "description": "Ghostly footprints and player handouts for your adventures",
-  "version": "3.1.0",
+  "version": "3.2.3",
   "license": "LICENSE",
   "compatibility": {
-    "minimum": "12",
-    "verified": "13"
+    "minimum": "13",
+    "verified": "14"
   },
   "authors": [
     {

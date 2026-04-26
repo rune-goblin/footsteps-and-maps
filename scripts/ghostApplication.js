@@ -34,8 +34,18 @@ export class GhostApplication extends HandlebarsApplicationMixin(ApplicationV2) 
   async _prepareContext(options) {
     return {
       progressBar: this.totalProgress * 100,
-      mapVersion: this.mapVersion,
-      mapLevel: this.mapLevel,
+      isPdf: this.mapVersion === 'pdf',
+      isCommunity: this.mapVersion === 'community',
+      isClassic: this.mapVersion === 'classic',
+      isRemaster: this.mapVersion === 'remaster',
+      isLevelTwo: this.mapLevel === 'two',
+      isLevelThree: this.mapLevel === 'three',
+      isLevelFour: this.mapLevel === 'four',
+      speedQuarter: this.playbackSpeed === 0.25,
+      speedHalf: this.playbackSpeed === 0.5,
+      speedOne: this.playbackSpeed === 1,
+      speedOneAndHalf: this.playbackSpeed === 1.5,
+      speedTwo: this.playbackSpeed === 2,
     };
   }
 
