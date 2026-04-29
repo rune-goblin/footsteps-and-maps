@@ -1,6 +1,6 @@
 # Footsteps and Maps
 
-![GitHub Downloads (all releases)](https://img.shields.io/github/downloads/rune-goblin/footsteps-and-maps/total?include_prereleases&filter=*.zip)
+![GitHub Downloads (latest release)](https://img.shields.io/github/downloads/rune-goblin/footsteps-and-maps/latest/footsteps-and-maps.zip?label=downloads)
 
 With this module the GM can add an animation of a ghostly image and its foot prints as it makes its way though the dungeon.
 It also contains additional assets, tokens and maps for your adventures.
